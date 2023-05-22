@@ -1,0 +1,58 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #f1f0f0;
+    padding: 10px 20px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+  }
+  .button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    min-width: 6rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .button:hover,
+  .button:active{
+    background-color: black;
+    color: white;
+  }
+  .link {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  .hover-button {
+    background-color: black;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .hide-products {
+      display: none;
+    }
+  }

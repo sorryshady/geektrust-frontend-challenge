@@ -1,0 +1,21 @@
+.scroll-button{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid black;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 50% ;
+    position: fixed;
+    top: 90vh;
+    right: 2vw;
+}
+.scroll-button:hover{
+    background-color: black;
+    color: white;
+}

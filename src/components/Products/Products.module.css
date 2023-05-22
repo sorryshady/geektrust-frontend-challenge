@@ -1,0 +1,44 @@
+.products-container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mobile {
+  display: none;
+}
+.filter-container{
+    max-height: 60vh;
+    margin-top: 8%;
+}
+.search-product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+.search-bar{
+    width: 100%;
+    text-align: center;
+}
+.catalogue-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    min-width: 90vw;
+  }
+  .filter-container{
+    display: none;
+  }
+}

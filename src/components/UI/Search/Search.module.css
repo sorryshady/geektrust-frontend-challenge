@@ -1,0 +1,39 @@
+.input{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.input input{
+    border: none;
+    border-bottom: 3px solid #d3d3d3;
+    width: 20rem;
+    padding: 10px 5px;
+    margin: 10px;
+    outline: none;
+    font-size: 1.1rem;
+}
+.input input:hover,
+.input input:focus{
+    border-bottom: 3px solid black;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width:768px){
+    .input input{
+        width:14rem;
+    }
+}

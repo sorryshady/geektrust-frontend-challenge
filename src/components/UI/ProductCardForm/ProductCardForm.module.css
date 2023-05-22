@@ -1,0 +1,21 @@
+.form{
+    width: 100%;
+    display: flex;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.actionButton,
+.count{
+    flex:1;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+.actionButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
